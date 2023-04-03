@@ -18,12 +18,12 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H:%M:%S')"
       - name: Export PDF
-        run: yarn resume export hao.pdf --theme ./src
+        run: yarn resume export resume.pdf --theme ./src
       - name: Update PDF
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GIST_TOKEN }}
           gist_id: ${{ vars.GIST_ID }}
           gist_description: Updated at ${{ steps.date.outputs.date }}
-          file_path: hao.pdf
+          file_path: resume.pdf
           file_type: binary
