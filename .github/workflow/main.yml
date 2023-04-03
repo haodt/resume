@@ -12,12 +12,16 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Export PDF
         run: yarn resume export hao.pdf --theme ./src
       - name: Update PDF
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ""
+          gist_id: ${{ vars.GIST_ID }}
+          gist_description: Updated at ${{ steps.date.outputs.date }}
           file_path: hao.pdf
           file_type: binary
