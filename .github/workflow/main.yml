@@ -1,0 +1,23 @@
+name: main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - name: Export PDF
+        run: yarn resume export hao.pdf --theme ./src
+      - name: Update PDF
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_TOKEN }}
+          gist_id: ""
+          file_path: hao.pdf
+          file_type: binary

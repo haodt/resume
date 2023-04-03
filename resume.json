@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Hao Doan",
+    "label": "Software Engineer",
+    "image": null,
+    "email": "haodt1990@gmail.com",
+    "url": null,
+    "summary": "Experienced senior software engineer with 9+ years of full software development lifecycle expertise. Proven success leading teams to deliver world-class solutions that increase business efficiency. Passionate about learning new skills and refining code bases. Proficient in various programming languages, frameworks, and tools, with a keen eye for detail. Committed to delivering high-quality software solutions that exceed expectations and drive business success.",
+    "location": {
+      "city": "Ho Chi Minh",
+      "region": "Viet Nam"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "haodt",
+        "url": "https://github.com/haodt"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ecoation",
+      "location": "Vancouver, Canada",
+      "position": "Software Engineer",
+      "summary": "At Ecoation, I worked across multiple technology stacks, including web, mobile, backend, and CI/CD. Notably, I resolved a longstanding performance bug and collaborated effectively with colleagues from various departments to deliver multiple successful projects.",
+      "url": "https://www.ecoation.com/",
+      "startDate": "September 2022",
+      "endDate": "March 2023",
+      "highlights": [
+        "Demonstrated expertise in full-stack development with React and TypeScript, including Redux state management and custom UI components with styled-components.",
+        "Contributed to the development of a responsive and user-friendly mobile application with React Native libraries to improve performance and user experience.",
+        "Leveraged AWS Cognito for secure user authentication and authorization across web and mobile applications.",
+        "Developed a GraphQL API with NestJS, utilizing TypeScript and hosted on AWS, with efficient data storage and retrieval managed by DynamoDB.",
+        "Designed and implemented GraphQL resolvers to enable seamless integration between frontend and backend.",
+        "Possess skills necessary for delivering high-quality, scalable, and reliable applications with expertise in React, TypeScript, AWS, NestJS, and GraphQL."
+      ]
+    },
+    {
+      "company": "Deliany",
+      "location": "Ho Chi Minh, Viet Nam",
+      "position": "Technical Lead - Engineering Manager",
+      "summary": "I was responsible for leading the architectural design and development efforts for a new SAAS application in the food delivery space at Deliany. Utilizing Next.js, GraphQL, and Elixir, I successfully led a team of five engineers and QA professionals in delivering a platform with seamless functionality and exceptional user experience across multiple platforms. Additionally, I seamlessly integrated the application with multiple providers for payment and delivery, utilizing my expertise in integration. I managed the AWS infrastructure using Terraform to ensure that the system was reliable, scalable, and secure while ensuring that the system ran efficiently within the constraints of our early-stage startup budget.",
+      "url": "https://eats.deliany.co/",
+      "startDate": "Jun 2020",
+      "endDate": "September 2022",
+      "highlights": [
+        "Led the architectural design and development efforts for multiple applications at Deliany, ensuring that the code was of high quality and delivered on time.",
+        "Ensured that the applications were reliable and that bugs were easily discoverable, making sure that the system ran smoothly for our clients.",
+        "Encouraged and facilitated engineer participation in improving the system, fostering a collaborative and innovative work environment.",
+        "Successfully handled high load spikes in traffic for the backend, ensuring that the applications were highly available and scalable.",
+        "Maintained a Google Lighthouse score of 90 or above, ensuring that page load times were fast and optimal for the end-users.",
+        "Kept the codebase clean and up-to-date with the latest libraries, ensuring that the applications were performant and secure.",
+        "Mentored and coached junior developers to improve their technical skills and foster a culture of continuous learning and growth."
+      ]
+    },
+    {
+      "company": "Tinypulse",
+      "location": "Ho Chi Minh, Viet Nam",
+      "position": "Software Engineer",
+      "summary": "As a frontend engineer, I worked with React and BackboneJS before transitioning to a fullstack engineer role using Ruby on Rails. I played a key role in shaping the company's UI libraries, ensuring consistency and user-friendliness.",
+      "url": "https://eats.deliany.co/",
+      "startDate": "October 2017",
+      "endDate": "June 2020",
+      "highlights": [
+        "Successfully migrated a large Rails and BackboneJS codebase to React and Webpack, improving performance and maintainability.",
+        "Led the architecture of company-wide shared JavaScript libraries, with a specific focus on creating a robust and user-friendly React UI library.",
+        "Collaborated closely with designers, product owners, and stakeholders to create intuitive and responsive UIs that met user needs and business requirements.",
+        "Reduced page load times by 200% by optimizing package management and removing unnecessary dependencies.",
+        "Proactively addressed technical debt in a sustainable manner, resulting in a significant increase in company productivity.",
+        "Resolved backend issues, including slow queries and data corruption."
+      ]
+    },
+    {
+      "company": "XAN",
+      "location": "Ho Chi Minh, Viet Nam",
+      "position": "Software Engineer",
+      "summary": "At XAN, I was responsible for the architecture design and development of core features for two applications: a food listing platform and a retail management system. I utilized my expertise in PHP, Backbone.js, and Angular 2 to deliver robust, user-friendly solutions that met the needs of our company's products.",
+      "url": "https://eats.deliany.co/",
+      "startDate": "August 2013",
+      "endDate": "August 2017",
+      "highlights": [
+        "Demonstrated proficiency in working with multiple PHP versions, leveraging the most appropriate version for each project.",
+        "Spearheaded the design and development of a custom framework based on Phalcon PHP, providing a solid foundation for the company's products and enabling efficient development and scalability.",
+        "Mentored and managed junior engineers, providing guidance on best practices and fostering their growth as professionals in the field.",
+        "Designed and implemented a custom UI framework based on Angular 2, enabling the company to create visually appealing, responsive, and user-friendly products."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Typescript",
+        "React",
+        "Apollo",
+        "GraphQL",
+        "Redux",
+        "Nextjs",
+        "Jest",
+        "Cypress"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "JavaScript",
+        "Elixir",
+        "Nodejs",
+        "Ruby",
+        "Rails",
+        "PHP",
+        "MySQL",
+        "Postgres",
+        "Redis",
+        "AWS",
+        "Cypress",
+        "SQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "AWS",
+        "Heroku",
+        "Github",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
+}
