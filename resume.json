@@ -42,7 +42,7 @@
       "position": "Technical Lead - Engineering Manager",
       "summary": "I was responsible for leading the architectural design and development efforts for a new SAAS application in the food delivery space at Deliany. Utilizing Next.js, GraphQL, and Elixir, I successfully led a team of five engineers and QA professionals in delivering a platform with seamless functionality and exceptional user experience across multiple platforms. Additionally, I seamlessly integrated the application with multiple providers for payment and delivery, utilizing my expertise in integration. I managed the AWS infrastructure using Terraform to ensure that the system was reliable, scalable, and secure while ensuring that the system ran efficiently within the constraints of our early-stage startup budget.",
       "url": "https://eats.deliany.co/",
-      "startDate": "Jun 2020",
+      "startDate": "June 2020",
       "endDate": "September 2022",
       "highlights": [
         "Led the architectural design and development efforts for multiple applications at Deliany, ensuring that the code was of high quality and delivered on time.",
