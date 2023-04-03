@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - uses: Install dependencies
+      - name: Install dependencies
         run: yarn install
       - name: Get current date
         id: date
