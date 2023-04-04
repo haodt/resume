@@ -218,12 +218,12 @@
 			<div class="dates">
 				{{#if startDate}}
 				<span class="startDate">
-					{{date startDate}}
+					{{date-year startDate}}
 				</span>
 				{{/if}}
 				{{#if endDate}}
 				<span class="endDate">
-					- {{date endDate}}
+					- {{date-year endDate}}
 				</span>
 				{{else}}
 				<span class="endDate">

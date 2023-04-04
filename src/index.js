@@ -14,6 +14,12 @@ function render(resume) {
 	  return months[theDate.getMonth()] + ' ' + theDate.getFullYear();
 	});
 
+	Handlebars.registerHelper('date-year', function(date) {
+		var theDate = new Date(date);
+  
+		return theDate.getFullYear();
+	  });
+
 	return Handlebars.compile(template)({
 		css: css,
 		resume: resume

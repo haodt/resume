@@ -141,5 +141,15 @@
       "language": "English",
       "fluency": "Fluent"
     }
+  ],
+  "education": [
+    {
+      "institution": "Ly Tu Trong College",
+      "url": "https://lttc.edu.vn/",
+      "area": "Computer Science",
+      "studyType": "Associate Degree",
+      "startDate": "2009",
+      "endDate": "2012"
+    }
   ]
 }
