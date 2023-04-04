@@ -144,6 +144,17 @@
   ],
   "education": [
     {
+      "institution": "Nhat Nghe Academy",
+      "area": "Web Developer",
+      "studyType": "Certificate",
+      "startDate": "2013",
+      "endDate": "2013",
+      "course": [
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
       "institution": "Ly Tu Trong College",
       "url": "https://lttc.edu.vn/",
       "area": "Computer Science",
