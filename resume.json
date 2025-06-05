@@ -20,6 +20,22 @@
   },
   "work": [
     {
+      "company": "Presight",
+      "location": "Ho Chi Minh, Viet Nam",
+      "position": "Senior Software Engineer",
+      "summary": "As a key contributor at Presight, I collaborated on building and maintaining complex data modeling systems, focusing on implementing functionalities and optimizing system performance. I played a pivotal role in infrastructure management, deploying and migrating Kubernetes-based solutions across on-premises and cloud environments (AWS and GCP), while ensuring robust CI/CD pipelines and server management for development teams. My work included enhancing application performance by resolving issues like slow rendering and memory leaks, developing advanced caching for time-series data, and upgrading legacy data pipelines with custom connectors for efficient delta syncing. Leveraging tools like Airbyte, Dagster, and AWS Glue, I ensured seamless data ingestion and processing, delivering scalable and reliable solutions to meet customer needs.",
+      "url": "https://www.presight.io/",
+      "startDate": "April 2023",
+      "endDate": "June 2025",
+      "highlights": [
+        "Collaborated with a team to develop and implement functionalities for advanced data modeling systems, enabling users to process and analyze diverse datasets, with contributions later refined by team-driven feature updates.",
+        "Designed and deployed on-premises Kubernetes (K8s) clusters and optimized CI/CD pipelines to enhance application scalability and deployment efficiency. Partially migrated infrastructure from AWS to GCP, transitioning from Docker to GCP K8s, and implemented a hybrid K8s solution for failover to cloud resources. Managed physical servers to support internal development teams.",
+        "Diagnosed and resolved performance bottlenecks in data-heavy applications with extensive charts and tables, addressing slow load times, memory leaks, and rendering issues by optimizing UI rendering (e.g., hiding non-visible UI elements) and streamlining main thread processes.",
+        "Implemented a sophisticated caching system for time-series data, accelerating query performance to customer databases and improving application responsiveness.",
+        "Maintained and upgraded a legacy data pipeline using Airbyte, Dagster, and AWS Glue to ingest customer data from MongoDB to BigQuery and AWS Athena. Developed custom Airbyte connectors to enable delta sync from MongoDB to BigQuery and implemented delta sync from BigQuery to Athena for flattened data structures."
+      ]
+    },
+    {
       "company": "Ecoation",
       "location": "Vancouver, Canada",
       "position": "Software Engineer",
